@@ -4,7 +4,7 @@
 
 ## usage
 ```sql
-geometry x_bd2gcj(bd_lon double,bd_lon double)    -- 转换从 百度 到火星坐标
+float[] x_bd2gcj(bd_lon double,bd_lon double)    -- 转换从 百度 到火星坐标
 geometry x_trans(geometry geom1,transtype text)  -- 转换 Point/LineString/Polygon/MultiPoint/MultiLineString/MultiPolygon
 
 select x_BD2GCJ(st_x(point),st_y(point)),
