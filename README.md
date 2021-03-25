@@ -1,4 +1,4 @@
-# postgre_xutil
+# xutil_pg
  
 经纬度转换支持: WGS2GCJ,WGS2BD,GCJ2BD,GCJ2WGS,BD2GCJ,BD2WGS
 
